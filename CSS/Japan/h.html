@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>スケジュール年月日</title>
+        <script src="calendar.js"></script>
+    </head>
+    <body>
+        <h1> スケジュール初期画面</h1>
+
+        <form method="get" action="calendar" name="forml" onsubmit="getymd()">
+            <h2>年月日の選択</h2>
+            <p>年月日<input type="date" id="today"></p>
+                <input type="hidden" id="year" name="YEAR"> 
+                <input type="hidden" id="month" name="MONTH">
+                <input type="hidden" id="date" name="DAY">
+                <p><input type="submit" value="送信"></p>
+        </form>
+    </body>
+</html>

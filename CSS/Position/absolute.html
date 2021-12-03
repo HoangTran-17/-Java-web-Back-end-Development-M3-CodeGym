@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position: absolute</title>
+    <style>
+        .supper {
+            position: relative;
+            background-color: rgb(182, 182, 182);
+            width: 500px;
+            height: 500px;
+        }
+
+        #div1 {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 80px;
+        }
+
+        #div2 {
+            background-color: blue;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="supper">
+            <div id="div1"></div>
+            <div id="div2"></div>
+        </div>
+    </div>
+</body>
+
+</html>
